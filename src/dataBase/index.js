@@ -3,7 +3,7 @@ const sequelize = new Sequelize({
     host: 'localhost',
     port: 5432,
     dialect: 'postgres',
-    database: 'sevadb',
+    database: 'postgres',
     username: 'postgres',
     password: '115569',
 });

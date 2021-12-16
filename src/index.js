@@ -31,7 +31,7 @@ app.use((req, res, next) => {
 });
 
 app.use('/api/auth', apiAuthRouter);
-app.use('/api/todo', apiTodosRouter);
+app.use('/api/todos', apiTodosRouter);
 app.use('/api/users', apiUserRouter);
 
 app.use(notFound);
